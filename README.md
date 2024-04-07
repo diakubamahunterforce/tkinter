@@ -1,27 +1,27 @@
-Esta biblioteca é uma versão do customtkinter em portugues simples de se usar
-primeiro instala customtkinter,no terminal  ou cmd   digita o  seguinte comando
-pip install customtkinter  windows
-sudo pip3 install customtkinter linux [ ubuntu  debian etc]
-pip3 install custontkinter   macos
+# Esta biblioteca é uma versão do customtkinter em portugues simples de se usar
+# primeiro instala customtkinter,no terminal  ou cmd   digita o  seguinte comando
+# pip install customtkinter  windows
+# sudo pip3 install customtkinter linux [ ubuntu  debian etc]
+# pip3 install custontkinter   macos
 
-depois de ter instalado, clona o repositorio com git clone ou baixa o arquivo hunterIFACE.py.
-Com  sua ide como, pycharm  vs code jupyter ou outro.
-Abra o arquivo  hunterIFACE.py, no vs code ou pycharm 
-depois cria um novo arquivo. 
-nesse novo arquivo  podes importar o modulo
+# depois de ter instalado, clona o repositorio com git clone ou baixa o arquivo hunterIFACE.py.
+# Com  sua ide como, pycharm  vs code jupyter ou outro.
+# Abra o arquivo  hunterIFACE.py, no vs code ou pycharm 
+# depois cria um novo arquivo. 
+# neste novo arquivo  podes importar o modulo
 
 from hunterIFACE.py import *
 
-# iniciar o o modulo cria uma varial exemplo programa
+# iniciar  o modulo cria uma varial exemplo programa
 
 programa=hunter_studio(nome=" test" ,tamanho="300x30")
-# nome sera o  titulo do programa tamanho  tem haver com grandeza da tela podes por seu gosto mais coloca sempre viruglas altas-- "500x300~" ect
+# nome sera o  titulo do programa tamanho  tem haver com grandeza da tela podes por seu gosto mais coloca sempre virugulas altas-- "500x300~" 
 programa.texto(texto="ola mundo",x=150,y=0)
 # o parametro "texto" ele te permite emprir um texto na tela  texto="ola mundo"  x e y te ajuda  cordernar o posiçao do texto  x 
 programa.iniciar.mainloop()
-#no final  do programa  colocar parametro iniciar . mainloop() para programa funciona  
+no final  do programa  colocar parametro iniciar . mainloop() para programa funciona  
 
-Lista de comando
+# Lista de comando
 
 programa=hunter_studio(nome=" test" ,tamanho="300x30")
 programa.botao(texto="ok", cor="blue", comando=sd, x=150,y=1)
