@@ -1,8 +1,8 @@
 # Esta biblioteca é uma versão do customtkinter em portugues simples de se usar
 # primeiro instala customtkinter,no terminal  ou cmd   digita o  seguinte comando
-# pip install customtkinter  windows
+# pip install customtkinter       para   windows
 # sudo pip3 install customtkinter linux [ ubuntu  debian etc]
-# pip3 install custontkinter   macos
+# pip3 install custontkinter   mac os
 
 # depois de ter instalado, clona o repositorio com git clone ou baixa o arquivo hunterIFACE.py.
 # Com  sua ide como, pycharm  vs code jupyter ou outro.
