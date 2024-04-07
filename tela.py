@@ -1,16 +1,17 @@
-from  customtkinter  import  *
-from HunterStudio import enviar_dados,desligar
+#Hunter estudio  apresenta   um novo modelo #
+#para customtkinter   
 
-def en():
-    chave="ativar"
-    enviar_dados(chave)
-set_appearance_mode("dark") 
-tela=CTk()
-tela.title("cender led")
-tela.geometry("500x500")
+from hunterIFACE import *
 
-btn=CTkButton(tela,text="ligar",command=enviar_dados)
-btn.place(x=20,y=300)
-btn1=CTkButton(tela,text="desligar",command=desligar)
-btn1.place(x=50,y=400)
-tela.mainloop()
+
+
+
+
+def  serial():
+   print(" ola mundo")
+   programa.texto(texto="ola",x=150,y=40)
+   
+programa=hunter_studio(nome="ola",tamanho="300x300")
+programa.botao(texto="escreva",cor="blue",comando=serial,x=95,y=0)
+
+programa.iniciar.mainloop()
