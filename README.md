@@ -23,16 +23,16 @@ no final  do programa  colocar parametro iniciar . mainloop() para programa func
 
 # Lista de comando
 
-programa=hunter_studio(nome=" test" ,tamanho="300x30")
-programa.botao(texto="ok", cor="blue", comando=sd, x=150,y=1)
-comando tem haver com função  que ela vai chamar 
-programa.texto(texto="ola mundo",x=12,y=0)
-programa.botao_de_check(texto="confirma",x=0,y=1);
-programpa.caixa(comprimento=29,altura=20,cor=blue,x=20,y=10)
-programa.entrada().get()
-programa.entrada.place(x=12,y=39)
-podes criar uma função  para utilizar o  get a entrada
-exemplo
+# programa=hunter_studio(nome=" test" ,tamanho="300x30")
+# programa.botao(texto="ok", cor="blue", comando=sd, x=150,y=1)
+# comando tem haver com função  que ela vai chamar 
+# programa.texto(texto="ola mundo",x=12,y=0)
+# programa.botao_de_check(texto="confirma",x=0,y=1);
+# programpa.caixa(comprimento=29,altura=20,cor=blue,x=20,y=10)
+# programa.entrada().get()
+# programa.entrada.place(x=12,y=39)
+# podes criar uma função  para utilizar o  get a entrada
+# exemplo
 
 from hunterIFACE import *
 
