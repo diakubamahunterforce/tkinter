@@ -19,7 +19,7 @@ programa=hunter_studio(nome=" test" ,tamanho="300x30")
 programa.texto(texto="ola mundo",x=150,y=0)
 # o parametro "texto" ele te permite emprir um texto na tela  texto="ola mundo"  x e y te ajuda  cordernar o posiçao do texto  x 
 programa.iniciar.mainloop()
-no final  do programa  colocar parametro iniciar . mainloop() para programa funciona  
+# no final  do programa  colocar parametro iniciar . mainloop() para programa funciona
 
 # Lista de comando
 
